@@ -71,6 +71,11 @@ function Experience() {
               <BsPatchCheckFill className='experience__details-icon' />
               <h4>GraphQL</h4>
             </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon' />
+              <h4>Postman</h4>
+            </article>
           </div>
         </div>
       </div>
