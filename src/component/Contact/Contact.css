@@ -11,7 +11,7 @@
 
 .contact__info {
     background: var(--color-bg-variant);
-    padding: 3rem;
+    padding: 5rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
@@ -24,14 +24,14 @@
 }
 
 .contact__info-icon {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
 .contact__info a {
     margin-top: 0.7rem;
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
 }
 
 /* form {
