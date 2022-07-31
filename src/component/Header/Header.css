@@ -14,7 +14,7 @@ header {
 .cta {
     margin-top: 2.5rem;
     display: flex;
-    gap: 1rem;
+    gap: 1.2rem;
     justify-content: center;
 }
 
@@ -40,7 +40,7 @@ header {
 .myself {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 25rem;
+    height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -61,6 +61,26 @@ img {
     right: -2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
-    font-weight: 200;
+    font-weight: 300;
     font-size: 0.9rem;
 }
+
+
+/* Media Queries For Medium Devices */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+/* Media Queries For Small Devices */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+    }
+
+    .header__socials, .scroll__down {
+        display: none;
+    }
+}
+
