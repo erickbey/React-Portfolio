@@ -17,8 +17,8 @@ function Footer() {
       </ul>
 
       <div className="footer__socials">
-        <a href='https://www.linkedin.com/in/erick-bey/' target='_blank' rel="noreferrer"><BsLinkedin /></a>
-        <a href='https://github.com/erickbey' target='_blank' rel="noreferrer"><BsGithub /></a>
+        <a href='https://www.linkedin.com/in/erick-bey/' target='_blank' rel="noreferrer" className='socials__icons'><BsLinkedin /></a>
+        <a href='https://github.com/erickbey' target='_blank' rel="noreferrer" className='socials__icons'><BsGithub /></a>
       </div>
 
       <div className="footer__copyright">

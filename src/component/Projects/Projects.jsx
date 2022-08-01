@@ -18,7 +18,7 @@ function Projects() {
           <h3>Disc Golf E-Commerce Site</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/erickbey/dg-site" className='btn' target='_blank' rel="noreferrer">Github</a>
-            <a href="https://erick-disc-golf.herokuapp.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+            <a href="https://erick-dg.herokuapp.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
 
